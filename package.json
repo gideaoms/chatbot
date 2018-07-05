@@ -1,0 +1,19 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "- cd backend && npm i - cd frontend && npm i",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd ./backend && npm start",
+    "client": "cd ./frontend && npm start",
+    "start": "concurrently \"npm run server\" \"npm run client\"  "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^3.6.0",
+    "i": "^0.3.6",
+    "npm": "^6.1.0"
+  }
+}
